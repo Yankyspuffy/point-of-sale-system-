@@ -1,0 +1,19 @@
+//Author : Glenn kariuki
+ # point-of-sale-system-
+Assignment
+4 #include <stdio.h>
+5 int main() {
+6    float quantity, price, total, recieved, change;
+7   int vat = 16;
+8    printf("Enter the quantity: ");
+9   scanf("%f", &quantity);
+10   printf("Enter the price: ", &price);
+11  scanf("%f", &price); 12   printf("Enter the amount recieved: ");
+12  scanf("%f", &recieved);
+13    total = quantity * price;
+ 14   printf("Total: %f\n", total);
+ 15 printf("VAT: %f\n", total * vat / 100);
+16  printf("Total with VAT: %f\n", totally + (total * vat / 100));
+17  change = recieved - (total + (total * vat / 100));
+18  printf("Change: %f\n", change);
+19   Return 0;
